@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\code-TRA\git-starter\cSharp-Dictionary\bin\Debug\net6.0\cSharp-Dictionary.exe
+C:\Users\user\Desktop\code-TRA\git-starter\cSharp-Dictionary\bin\Debug\net6.0\cSharp-Dictionary.deps.json
+C:\Users\user\Desktop\code-TRA\git-starter\cSharp-Dictionary\bin\Debug\net6.0\cSharp-Dictionary.runtimeconfig.json
+C:\Users\user\Desktop\code-TRA\git-starter\cSharp-Dictionary\bin\Debug\net6.0\cSharp-Dictionary.dll
+C:\Users\user\Desktop\code-TRA\git-starter\cSharp-Dictionary\bin\Debug\net6.0\cSharp-Dictionary.pdb
+C:\Users\user\Desktop\code-TRA\git-starter\cSharp-Dictionary\obj\Debug\net6.0\cSharp-Dictionary.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\code-TRA\git-starter\cSharp-Dictionary\obj\Debug\net6.0\cSharp-Dictionary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\code-TRA\git-starter\cSharp-Dictionary\obj\Debug\net6.0\cSharp-Dictionary.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\code-TRA\git-starter\cSharp-Dictionary\obj\Debug\net6.0\cSharp-Dictionary.AssemblyInfo.cs
+C:\Users\user\Desktop\code-TRA\git-starter\cSharp-Dictionary\obj\Debug\net6.0\cSharp-Dictionary.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\code-TRA\git-starter\cSharp-Dictionary\obj\Debug\net6.0\cSharp-Dictionary.dll
+C:\Users\user\Desktop\code-TRA\git-starter\cSharp-Dictionary\obj\Debug\net6.0\refint\cSharp-Dictionary.dll
+C:\Users\user\Desktop\code-TRA\git-starter\cSharp-Dictionary\obj\Debug\net6.0\cSharp-Dictionary.pdb
+C:\Users\user\Desktop\code-TRA\git-starter\cSharp-Dictionary\obj\Debug\net6.0\cSharp-Dictionary.genruntimeconfig.cache
+C:\Users\user\Desktop\code-TRA\git-starter\cSharp-Dictionary\obj\Debug\net6.0\ref\cSharp-Dictionary.dll
