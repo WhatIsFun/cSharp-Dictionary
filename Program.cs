@@ -1,5 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
 using System.Diagnostics.Metrics;
+using static System.Net.Mime.MediaTypeNames;
+using System.Xml.Linq;
 
 namespace cSharp_Dictionary
 {
@@ -35,7 +39,7 @@ namespace cSharp_Dictionary
             Console.WriteLine("Enter a sentence: ");
             string sen = Console.ReadLine();
 
-            string[] words = sen.Split(" ");
+            string[] words = sen.Split(" "); // To remove the space from count.
             
             Dictionary<string, int> wordFrequency = new Dictionary<string, int>();
             foreach (string word in words)
@@ -57,7 +61,43 @@ namespace cSharp_Dictionary
                 Console.WriteLine("{0} : {1}", item.Key, item.Value);
             }
 
+            // Task 2: Unique Elements
+            // Write a function that takes an array of integers as input and returns a HashSet containing only
+            // the unique elements from the array. Test the function with different input arrays and print the
+            // resulting HashSet.
+            Console.WriteLine("\r\nTask 2: Unique Elements\r\n~~~~~~~~~~~~~~~");
 
+            static HashSet<int> GetUniqueElements(int[] array)
+            {
+                HashSet<int> uniqueElements = new HashSet<int>();
+
+                foreach (int element in array)
+                {
+                    // Add the element to the HashSet
+                    uniqueElements.Add(element);
+                }
+
+                // return the HashSet
+                return uniqueElements;
+            }
+
+            int[] array1 = new int[] { 1, 2, 3, 4, 5 };
+            int[] array2 = new int[] { 1, 1, 2, 2, 4, 4 };
+            int[] array3 = new int[] { 6, 7, 6, 6, 7 };
+
+            Console.WriteLine("The unique elements in array1 are:");
+            DisplayHashSet(GetUniqueElements(array1));
+            Console.WriteLine("The unique elements in array2 are:");
+            DisplayHashSet(GetUniqueElements(array2));
+            Console.WriteLine("The unique elements in array3 are:");
+            DisplayHashSet(GetUniqueElements(array3));
+        }
+        public static void DisplayHashSet(HashSet<int> set)
+        {
+            foreach (int element in set)
+            {
+                Console.WriteLine(element);
+            }
         }
     }
 }
