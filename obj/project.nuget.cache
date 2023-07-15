@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "T3OOEslwYlf/h4fjmlu3VbEeC1Ykn0P4oC7/+lxZbvEMbkr3VELm+YT0ubw4XKA4Xclcp9zJcOhwDS4QQodiEA==",
+  "dgSpecHash": "XrP+FUcRxo/f/UzgMxcd2WiRImA1nQQPwlIN5DvgU8tkPsZdzoMQYKvGUufBk/NFl5PlAKVeMOU2vhcRgDRooA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\code-TRA\\git-starter\\cSharp-Dictionary\\cSharp-Dictionary.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\moham\\Source\\Repos\\cSharp-Dictionary\\cSharp-Dictionary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\moham\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.20\\microsoft.windowsdesktop.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\moham\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.20\\microsoft.netcore.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\moham\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.20\\microsoft.aspnetcore.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\moham\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.20\\microsoft.netcore.app.host.win-x64.6.0.20.nupkg.sha512"
+  ],
   "logs": []
 }

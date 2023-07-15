@@ -1,4 +1,7 @@
-﻿namespace cSharp_Dictionary
+﻿using System.Collections.Generic;
+using System.Diagnostics.Metrics;
+
+namespace cSharp_Dictionary
 {
     internal class Program
     {
@@ -23,6 +26,38 @@
             {
                 Console.WriteLine(result);
             }
+
+            // Task 1: Word Frequency Counter
+            // Create a program that prompts the user to enter a sentence.
+            // The program should count the frequency of each word in the sentence and display the results as a dictionary,
+            // where the keys are the unique words and the values are the corresponding frequencies.
+            Console.WriteLine("\r\nTask 1: Word Frequency Counter\r\n~~~~~~~~~~~~~~~");
+            Console.WriteLine("Enter a sentence: ");
+            string sen = Console.ReadLine();
+
+            string[] words = sen.Split(" ");
+            
+            Dictionary<string, int> wordFrequency = new Dictionary<string, int>();
+            foreach (string word in words)
+            {
+                string lowerWords = word.ToLower(); // To convert words to lower case
+                // To check if the word already exists
+                if (wordFrequency.ContainsKey(lowerWords))
+                {
+                    wordFrequency[lowerWords]++;
+                }
+                else
+                {
+                    wordFrequency.Add(lowerWords, 1);
+                }
+            }
+            Console.WriteLine("The frequency of each word in the sentence is:");
+            foreach (KeyValuePair<string, int> item in wordFrequency)
+            {
+                Console.WriteLine("{0} : {1}", item.Key, item.Value);
+            }
+
+
         }
     }
 }
