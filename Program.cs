@@ -110,7 +110,7 @@ namespace cSharp_Dictionary
             Console.WriteLine("\r\nTask 3: Phone Book\r\n~~~~~~~~~~~~~~~\n");
             Console.WriteLine("    Welcome To    ");
             Console.WriteLine(" +-+-+-+-+-+-+-+-+-+\r\n |W|h|a|t|I|s|F|u|n|\r\n +-+-+-+-+-+-+-+-+-+");
-            Console.WriteLine("Guesiing Number Game\n");
+            Console.WriteLine("Phone Book\n");
             // Display menu
             Console.WriteLine("Please choose an option:");
             Console.WriteLine("1. Add a contact");
