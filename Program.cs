@@ -110,7 +110,7 @@ namespace cSharp_Dictionary
             Console.WriteLine("\r\nTask 3: Phone Book\r\n~~~~~~~~~~~~~~~\n");
             Console.WriteLine("    Welcome To    ");
             Console.WriteLine(" +-+-+-+-+-+-+-+-+-+\r\n |W|h|a|t|I|s|F|u|n|\r\n +-+-+-+-+-+-+-+-+-+");
-            Console.WriteLine("Phone Book\n");
+            Console.WriteLine("    Phone Book     \n");
             // Display menu
             Console.WriteLine("Please choose an option:");
             Console.WriteLine("1. Add a contact");
@@ -119,7 +119,7 @@ namespace cSharp_Dictionary
             Console.WriteLine("4. Exit");
 
             int choice = int.Parse(Console.ReadLine());
-
+            Contacts contacts = new Contacts();
             // Loop until the user chooses to exit '4'
             while (choice != 4)
             {
@@ -130,20 +130,21 @@ namespace cSharp_Dictionary
                         string name = Console.ReadLine();
                         Console.WriteLine("Enter a number:");
                         string phoneNum = Console.ReadLine();
-
-                        Contacts contacts = new Contacts();
                         contacts.Add(name, phoneNum);
                         break;
+
                     case 2:
                         Console.WriteLine("Enter a name:");
                         string searchName = Console.ReadLine();
                         contacts.Search(searchName);
                         break;
+
                     case 3:
                         Console.WriteLine("Enter a name:");
                         string deleteName = Console.ReadLine();
                         contacts.Remove(deleteName);
                         break;
+
                     default:
                         Console.WriteLine("Invalid choice. Try again.");
                         break;
@@ -158,7 +159,7 @@ namespace cSharp_Dictionary
                 choice = int.Parse(Console.ReadLine());
             }
             //Exit message
-            Console.WriteLine("Thank you for using WhatIsFun Phone Book. \r\nGoodbye!");
+            Console.WriteLine("Thank you for using WhatIsFun Phone Book.");
         }
     }
 }

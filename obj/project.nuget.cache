@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XrP+FUcRxo/f/UzgMxcd2WiRImA1nQQPwlIN5DvgU8tkPsZdzoMQYKvGUufBk/NFl5PlAKVeMOU2vhcRgDRooA==",
+  "dgSpecHash": "O0MdVVG2gJKsTux3dxubDjz0eBc2WvOqsYG/77LZsCO9E1ULwTvRySiC7LIyeTJEFQSjPei3GwjkQvWezxwh6A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\moham\\Source\\Repos\\cSharp-Dictionary\\cSharp-Dictionary.csproj",
+  "projectFilePath": "C:\\Users\\moham\\source\\repos\\cSharp-Dictionary\\cSharp-Dictionary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\moham\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.20\\microsoft.windowsdesktop.app.ref.6.0.20.nupkg.sha512",
     "C:\\Users\\moham\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.20\\microsoft.netcore.app.ref.6.0.20.nupkg.sha512",
