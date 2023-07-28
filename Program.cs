@@ -7,6 +7,7 @@ using System.Xml.Linq;
 using static System.Formats.Asn1.AsnWriter;
 using System.Collections;
 using System.Runtime.Intrinsics.X86;
+using System.Diagnostics;
 
 namespace cSharp_Dictionary
 {
@@ -160,6 +161,82 @@ namespace cSharp_Dictionary
             }
             //Exit message
             Console.WriteLine("Thank you for using WhatIsFun Phone Book.");
+
+
+            // Task 4: Student Grade Book
+            // Create a program that allows teachers to enter grades for students.
+            // Use a Dictionary to store the student names as keys and a list of their grades as values.
+            // Implement functions to add grades for a student, calculate the average grade for a student,
+            // and display the average grades for all students.
+            Dictionary<string, List<int>> studentGrades = new Dictionary<string, List<int>>();
+
+            AddGrade("Mohammed", 70, studentGrades);
+            AddGrade("Ali", 80, studentGrades);
+            AddGrade("Salma", 100, studentGrades);
+            AddGrade("Mohaned", 68, studentGrades);
+
+            DisplayAverageGrades(studentGrades);
+
+            // Task 5: Set Intersection
+            // Write a function that takes two arrays of integers as input and returns a HashSet containing
+            // the elements that are common to both arrays(i.e., the intersection). Test the function with different
+            // input arrays and print the resulting HashSet.
+            int[] arrayA = { 15, 20, 33 };
+            int[] arrayB = { 15, 33, 42 };
+
+            HashSet<int> intersection = GetIntersection(arrayA, arrayB);
+
+            foreach (int element in intersection)
+            {
+                Console.Write("{0}  ", element);
+            }
+        }
+        //Task 4:
+        static void AddGrade(string studentName, int grade, Dictionary<string, List<int>> studentGrades)
+        {
+            if (studentGrades.ContainsKey(studentName))
+            {
+                studentGrades[studentName].Add(grade);
+            }
+            else
+            {
+                studentGrades.Add(studentName, new List<int> { grade });
+            }
+        }
+        //Task 4:
+        static double CalculateAverageGrade(string studentName, Dictionary<string, List<int>> studentGrades)
+        {
+            if (studentGrades.ContainsKey(studentName))
+            {
+                return studentGrades[studentName].Average();
+            }
+            else
+            {
+                return double.NaN;
+            }
+        }
+        //Task 4:
+        static void DisplayAverageGrades(Dictionary<string, List<int>> studentGrades)
+        {
+            Console.WriteLine("~~ Student List ~~");
+            foreach (KeyValuePair<string, List<int>> entry in studentGrades)
+            {
+                double averageGrade = CalculateAverageGrade(entry.Key, studentGrades);
+                if (!double.IsNaN(averageGrade))
+                {
+                    Console.WriteLine("Student Name: {0}\nAverage Grade: {1}\n________", entry.Key, averageGrade);
+                }
+            }
+        }
+        //Task 5:
+        static HashSet<int> GetIntersection(int[] arrayA, int[] arrayB)
+        {
+            HashSet<int> setA = new HashSet<int>(arrayA);
+            HashSet<int> setB = new HashSet<int>(arrayB);
+
+            setA.IntersectWith(setB);
+
+            return setA;
         }
     }
 }

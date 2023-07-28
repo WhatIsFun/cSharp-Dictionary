@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O0MdVVG2gJKsTux3dxubDjz0eBc2WvOqsYG/77LZsCO9E1ULwTvRySiC7LIyeTJEFQSjPei3GwjkQvWezxwh6A==",
+  "dgSpecHash": "5YvmakwQb29B08TCilgCYHxKbY1BC5guXU2duu1HDsuhncA+mgblIf3yIOTn5sn/ZYmoDMv7b9zyWnusRK6KMw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\moham\\source\\repos\\cSharp-Dictionary\\cSharp-Dictionary.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\moham\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.20\\microsoft.windowsdesktop.app.ref.6.0.20.nupkg.sha512",
-    "C:\\Users\\moham\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.20\\microsoft.netcore.app.ref.6.0.20.nupkg.sha512",
-    "C:\\Users\\moham\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.20\\microsoft.aspnetcore.app.ref.6.0.20.nupkg.sha512",
-    "C:\\Users\\moham\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.20\\microsoft.netcore.app.host.win-x64.6.0.20.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\user\\Source\\Repos\\cSharp-Dictionary\\cSharp-Dictionary.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
